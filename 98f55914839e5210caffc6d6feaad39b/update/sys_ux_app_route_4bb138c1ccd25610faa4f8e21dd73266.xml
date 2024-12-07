@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="To Do Workspace App Config">cfb138c18ad25610defe8e6e4302c16f</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table</fields>
+        <icon/>
+        <name>Simple List</name>
+        <optional_parameters>listTitle,query,disableInlineEditing</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>simplelist</route_type>
+        <screen_type display_value="Simple List">c3b138c1d4d256107078ac867037f566</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 03:11:20</sys_created_on>
+        <sys_id>4bb138c1ccd25610faa4f8e21dd73266</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List</sys_name>
+        <sys_package display_value="To Do" source="x_1391532_to_do">98f55914839e5210caffc6d6feaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_update_name>sys_ux_app_route_4bb138c1ccd25610faa4f8e21dd73266</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 03:11:20</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=4bb138c1ccd25610faa4f8e21dd73266"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Name":"Clock","Value":"f017","FontColor":"#81B5A1","FontName":"now-mobile-icons","Shape":"Circle"}</icon>
+        <name>Clock</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 19:19:20</sys_created_on>
+        <sys_id>2e722e3183d25a10caffc6d6feaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Clock</sys_name>
+        <sys_package display_value="To Do" source="x_1391532_to_do">98f55914839e5210caffc6d6feaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_update_name>sys_sg_icon_2e722e3183d25a10caffc6d6feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 19:19:20</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>

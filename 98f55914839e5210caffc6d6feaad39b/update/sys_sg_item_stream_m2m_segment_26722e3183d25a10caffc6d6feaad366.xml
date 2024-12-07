@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="66722e3183d25a10caffc6d6feaad363 Item Stream">ea722e3183d25a10caffc6d6feaad365</item_stream>
+        <segment display_value="To Do Projects Item Stream Segment">a2722e3183d25a10caffc6d6feaad365</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 19:19:20</sys_created_on>
+        <sys_id>26722e3183d25a10caffc6d6feaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="To Do" source="x_1391532_to_do">98f55914839e5210caffc6d6feaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_26722e3183d25a10caffc6d6feaad366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 19:19:20</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

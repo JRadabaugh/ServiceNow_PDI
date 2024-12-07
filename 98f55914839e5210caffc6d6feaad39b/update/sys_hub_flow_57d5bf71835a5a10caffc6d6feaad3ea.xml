@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Send a reminder email to the Assigned to one day before the Due date</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>send_reminder_email_one_day_before_due_date</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛To Do Record","reference":"x_1391532_to_do_to_do","reference_display":"To Do","type":"reference","base_type":"reference","usedInstances":{"d87f826d-fdc3-499b-982b-aa18c5a7e2e3":["record"]},"attributes":{}},{"name":"27007910-2d12-4de4-bc62-15912ef5a1b2.Records","label":"1 - Look Up Records➛To Do Records","reference":"x_1391532_to_do_to_do","reference_display":"To Do","type":"records","base_type":"records","usedInstances":{"cb67f28a-802b-4386-9285-8aab1febce4e":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cb67f28a-802b-4386-9285-8aab1febce4e.item","label":"2 - For Each➛To Do Record","reference":"x_1391532_to_do_to_do","reference_display":"To Do Record","type":"reference","base_type":"reference","usedInstances":{"26435fcb-5be8-4a05-b5c2-1e375d16cd20":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"cb67f28a-802b-4386-9285-8aab1febce4e.item.assigned_to.email","label":"2 - For Each➛To Do Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"26435fcb-5be8-4a05-b5c2-1e375d16cd20":["ah_to"]}},{"name":"cb67f28a-802b-4386-9285-8aab1febce4e.item.to_do_item","label":"2 - For Each➛To Do Record➛To Do item","reference":"","reference_display":"To Do item","type":"string","base_type":"string","parent_table_name":"x_1391532_to_do_to_do","column_name":"to_do_item","usedInstances":{"26435fcb-5be8-4a05-b5c2-1e375d16cd20":["ah_subject",null]}},{"name":"cb67f28a-802b-4386-9285-8aab1febce4e.item.assigned_to.first_name","label":"2 - For Each➛To Do Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"26435fcb-5be8-4a05-b5c2-1e375d16cd20":[null]}},{"name":"cb67f28a-802b-4386-9285-8aab1febce4e.item.project","label":"2 - For Each➛To Do Record➛Project","reference":"x_1391532_to_do_to_do_project","reference_display":"To Do Project","type":"reference","base_type":"reference","parent_table_name":"x_1391532_to_do_to_do","column_name":"project","usedInstances":{"26435fcb-5be8-4a05-b5c2-1e375d16cd20":[null]}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Send reminder email one day before Due date</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 01:23:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57d5bf71835a5a10caffc6d6feaad3ea</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Send reminder email one day before Due date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="To Do" source="x_1391532_to_do">98f55914839e5210caffc6d6feaad39b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_update_name>sys_hub_flow_57d5bf71835a5a10caffc6d6feaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 05:00:17</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_variable_value action="delete_multiple" query="document_key=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=57d5bf71835a5a10caffc6d6feaad3ea^sys_idNOT INd3d5bf71835a5a10caffc6d6feaad3eb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>57d5bf71835a5a10caffc6d6feaad3ea</id>
+        <name>Send reminder email one day before Due date</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 01:23:40</sys_created_on>
+        <sys_id>d3d5bf71835a5a10caffc6d6feaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 01:23:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d3d5bf71835a5a10caffc6d6feaad3eb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=57d5bf71835a5a10caffc6d6feaad3ea^sys_idNOT INb961c0ce835a5a10caffc6d6feaad37e"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">57d5bf71835a5a10caffc6d6feaad3ea</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 02:14:05</sys_created_on>
+        <sys_id>b961c0ce835a5a10caffc6d6feaad37e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 02:35:45</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SS0/DMAz+KyjnUaUbz96Q0CQOgATTLtNUuYm7RXKTkKaDgvjvOG1BgFblYn/297C6+RAEFZIoxMo0KGbC2IjBAq16j9zdkdFYxhFrwGqILvSiiKHDmXBBYxBFLuVMHIA6fO7bO81rPGyhSQTT6oBymV9fylOZ8zuReSElP0Y9BJ6OietDqL0hHdCKYrNlP4luAfoMtZJqMedPyvnVWV5dLKp8rheAeM4U/2L8VY9Hwvz2jm8RrUaWqoFaPJI0IOhHS/3PxJ4PNQZt4K017zhRBayRzSscQbV3RuGjj8bZsROhom/QUdfYh9Eq1xpr6Ciup1txp2ux1OiTuSQ3adfPe/f69C20NHZIMoHkFNBPBTEGU3UR23RaJGyYqGzAe2N3pQ/uYIZl9tJkw32ymtwri7ZmZzNQyXjGt4Bsyf3bob2GYFKKe6bh5c8hdfnSJd0xx+S4HEPzgDatJ+iXBmn6P1oVjI83LHDAye7n9gsCdMfUkAIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=57d5bf71835a5a10caffc6d6feaad3ea^sys_idNOT INd9eb108e83da5a10caffc6d6feaad341,edeb108e83da5a10caffc6d6feaad347"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">57d5bf71835a5a10caffc6d6feaad3ea</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 04:09:50</sys_created_on>
+        <sys_id>d9eb108e83da5a10caffc6d6feaad341</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 04:33:28</sys_updated_on>
+        <ui_id>27007910-2d12-4de4-bc62-15912ef5a1b2</ui_id>
+        <values>H4sIAAAAAAAA/9VXW0/bMBT+K1WeNimqkqYt0KdNIKQ9QCVAe2HMcmIn9ebYmeP0AuK/7zhO0tALlK5M8FIp9rl855zvs93bB4cRZ+Qcx33Pw/7g+MjzgsDzhsMgwn4YBsMo9MJ+6LiOwCkFS41DTuFzinlhvufID078QdBDWiIi7S/sE5ZnHC++V2Y3snNmlqMJ40RR4Yxu71wnwwqiaqqc0cPKll5kFHEcUm68TdLOpUHg7gz4ifN6ASZB/YmEDS0VMVg816FzTQWhkCrGPKeuk2JBsJZq0awoislY8OXChAkNER1jPM/ZPYQ/9oxdTKGsiNq9aCJZRMeZZlLYFYvIbkpepOLSIjVdpDEuuK67CCtFThGhmQFnslWp4+uJnF3Vic6ZKOuoNrmMMG++sNaKhYWmuWk65TSFQCjFWcZEgjIlp6x0BixpN+Hw0Y25nEHSnCWiiyMDvAu9wN1zWD8rl79jxUwVFxAGnAEQ4zBWZLuby0KV5U9RxIu83FBY5DaW81j2CP0pDEpbdVUfsi0CgzxSLNNfwWFKq1Ie3Z3IO/CWs4+kIMzkzFsMziEXUjQtm/ajgBhEq4L+JAV0Gms6vryRqVRKzr78wlNskYySvBvShAkBXRvHtcWnzys2ELu9uy6M/5x9P/2dtvu2a883Om8aRKXEJ2uVEv2DKRHgvrUWzdzenRRfEpct+AWFRUfPTnuwHGwulUa2cy2JrdN+byqeM8rJk6tgB3C189iwqhMutuGtmBibHCt3Qu/j3AnvkocAiCDbWCY4E+XdC0APQ1Dv+ePoZGXg5ZxbN4BZg2Nznaa4o2Xnfv9zs5xrTdQdQNaO14Coc2NRbgBen5h1+IqjwcE4GvS2cBQYcvvQwGzas6GT9VvKzKi2vzf2eNUeaNRy8B/vGo6f7pfTf23Onsm5IsLgVSpsU8junG1h0oEfcFtU5b6ljCfgWuVDVpVoxkhC9TJ7bUWknmH+e9N+JbVGLGV5//wY7D8rsqG/FBSQHR5eOYyq/Rr04Z2wfg74rl3e7xj4JjRNyubtCrH2vMDzzlWDcSPw6ixgTY6K0/0DPp0OemHVHd4ok7rRH+Jvzr5cvfsLRmI8tHcPAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">57d5bf71835a5a10caffc6d6feaad3ea</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>cb67f28a-802b-4386-9285-8aab1febce4e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 04:09:50</sys_created_on>
+        <sys_id>edeb108e83da5a10caffc6d6feaad347</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 05:00:17</sys_updated_on>
+        <ui_id>26435fcb-5be8-4a05-b5c2-1e375d16cd20</ui_id>
+        <values>H4sIAAAAAAAA/+2X227bOBCGX4VwL9dW5ZN8yM12GwRbYNsumqB70RQGRY5sNpSoklQcb5B36bP0yXaog2XHievayW63LeALi+IM/5n5hiLfXTcEb4wbPT70gzDq0YHf7XR9f9gZjcLuKPKHg5HfZrzRbCQ0BpypgSntni+pzNwA/uXCpJIu3tYjbCYk15A0xu/eNxsp1WhsQTfG17de2UUKE0lDkGh4rFgWQ2LJi2P0sauwyvqM6ilY8qYSeFuwWwqfebnIRLhBfOVk+c0GXFlIOOCiEZUGmo2YJpxapRfLEQ2Uv05kPTATiUWXz4xRTFALhtgZEIipkGQu7IxQUizvNZy/KyP+RgndjnMVASaBOUUiYYKjojxvSjB4nVqhkiKTloaySqqSWZy8KsJyaYeIZtKupD0zMOGQujicMKszFBmdztT8TbXeiUjyiMsIpGJULp+otVqEGQaSV0oC1bW/SS7J+cSVQEKexJimqUimk1SrS5E7RpmxN5X44EVSzdHeiGniUeZi8jCj1DvB8eN8+C3VwgX4Et2g8U2emMnHzGkqQlxf3M2d5IXFqYZpkdpn6PgSyhBumiXQ7dE2bniv5mPF56NAfeb8k1eF/121rRnfo7XkeW2sxLl9EM5nyLAtmqmgl9hSxhLhob+O8IOjWyram93H4RMLaCYFdmVs+eJf5PZLtPpBEIZB2B90ayJGLOKDMArogHVrAua4y+iY6otJvsusINveZLbs1T25ReOnJ3l4zZ1VVsYvEiYzDuSvSu62CEqQQ6Vww0lqijsHUVyQSKwiWDu5wK14ubIbrDdqO6OWCEMMlssjZ4qIUvyKRZMsVEbizFicZvHNWn+s7e69h22Nsobl6PGdBf5f9M6hPdLfvmvSmjA6m1i10hnk+pqFwSDqDGlr6HfCVq87DFqjzrDfGlIatiMIGfTAExZijxqnHTi68HI+bm7IZmc9hMv92vIUK5VMq5bcISnLflabGSo7z1Q+y8brbm+84lix0XcrHwf/R/08cJAiFnkVi+Y8lHq+tcDgr9WUsRXqI/HBXM0v+a/TDLQWUlKHnofhbeK8de5DcLpDGJXh8+ebMd3DaW+/D8RPUB8B1PbWixoEa0UN10jNaHbxkf5CZRJN23bIppFvdqF2Z7uHIHiH+CrD324hHG5juP+T4W+G4f72GrO1qpos/ADMrnCMR8dj/GWAh8hYaa3m401o7570IGeBL6tfGi613xXPPaQGP08F/8nBl26ta9RZ32sUX6wgeZ75fpelxClsWZEsYgZaKRtiGi7yl/y8cV5Mg2Og2v3rBElo0qNmYfw0Ld6eJ1/lbMVRYWdSmhBjFxKqqVhfpcfkSWfUhZ5/RCKV2FZEYyEXY5LbD05VphmQU5oY8qdWxWCTGHxuGdAiKq0cYmPSDtKrcmAOYjqzYxIqyY+IBIvd1EIJDOs6Jr7ndyA+qrQ+M/n1TsPHDIwF3iRzvP1pcFdCjgZ432MoBClZ4KQ4B4rQUGXuJlg0tDvoL2+SHLvblt3tlVl04deZOSit33Qu63SMNxD4YZKAnt1e+rgZWHdc+tn84JR+6xb//Om+zi4eP3/aP7/Bk+7o6K4c5y++z8Y9lMl/OWcrDVpV+ruLseq/rw1wOb/upv1OZr+fvfyjOpft8P1e3hyKr/fG57w8kc1sLOvz2ODAm0PQ73eDH/JEhnWc8w7XKk3L2A66Prz/BwYgPk9GHQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=57d5bf71835a5a10caffc6d6feaad3ea^sys_idNOT INa1eb108e83da5a10caffc6d6feaad345"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">55eb108e83da5a10caffc6d6feaad343</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">57d5bf71835a5a10caffc6d6feaad3ea</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 04:09:50</sys_created_on>
+        <sys_id>a1eb108e83da5a10caffc6d6feaad345</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 05:00:17</sys_updated_on>
+        <ui_id>cb67f28a-802b-4386-9285-8aab1febce4e</ui_id>
+        <values>H4sIAAAAAAAA/51SwU7jMBD9F5/bKHFLob0hrZA4ABKLuKxQNLEnrbWO7bWdlmyUf2fcJAVx5BTPm5n33kymZ7aNro3hxd6GoPaG7f68LZgyCaN3zww0yHZMRWwCW7Aj6DbFfc+v8/x6W+RLLgu+XEtcLyux4cvialtwrK+gqHj2jMJ6GYaBWqUKTkP3+nMGcVBaepxMOvDkLaJnu/5bKnYOSw0VahKaGKhfSQqLraxJdCtWfLPiec5v1kW1WVUFlytAuaG6ufN+GvrbDhI7hf7CS5/kgucLhu8RjUQSqkEHXLAGjIRofcd20bcEeAT5ZHR3qTgoE4mOpdr3oP4Td5HnqbBGmkjgmBQHqwQ+uaisGZEIlZ6TVreNeRx9pl1jDa2O864JaQOWEl0yl+Qm7fr3wZ6eZ6E7Zc6DTEltBehLBDF6VbURQ9o3amyIqGzAOWX2pfP2qM7N5KXJ9pqCrNb2RKLprjIQyXhGu4DsjvBfZ/gVvEpTPBANNQ/nqct/bdId55gcl+PQVBCEVy7eEt0RJ3PDWzrMkSmMFyBRqECCLwm7n885JTr6m0p8hU7W/01WP7HhA2fmCLwYAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=57d5bf71835a5a10caffc6d6feaad3ea^sys_idNOT IN21eb108e83da5a10caffc6d6feaad34d,65eb108e83da5a10caffc6d6feaad34c,6deb108e83da5a10caffc6d6feaad34c,e1eb108e83da5a10caffc6d6feaad34d"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>57d5bf71835a5a10caffc6d6feaad3ea</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb67f28a-802b-4386-9285-8aab1febce4e.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 04:09:50</sys_created_on>
+        <sys_id>21eb108e83da5a10caffc6d6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 04:09:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>477324c8-7690-461c-af8f-105fb978a388</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>57d5bf71835a5a10caffc6d6feaad3ea</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb67f28a-802b-4386-9285-8aab1febce4e.item.assigned_to.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 04:09:50</sys_created_on>
+        <sys_id>65eb108e83da5a10caffc6d6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 04:09:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b67a8527-bcd3-4d05-b557-256cd4c84bfd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>57d5bf71835a5a10caffc6d6feaad3ea</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb67f28a-802b-4386-9285-8aab1febce4e.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 04:09:50</sys_created_on>
+        <sys_id>6deb108e83da5a10caffc6d6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 04:09:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c95f7299-608c-46df-b2a7-034891e2b87e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>57d5bf71835a5a10caffc6d6feaad3ea</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{cb67f28a-802b-4386-9285-8aab1febce4e.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 04:09:50</sys_created_on>
+        <sys_id>e1eb108e83da5a10caffc6d6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">98f55914839e5210caffc6d6feaad39b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 04:09:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3d24deef-72ec-4bae-a96b-4b9daebf1d35</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=57d5bf71835a5a10caffc6d6feaad3ea"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=57d5bf71835a5a10caffc6d6feaad3ea"/>
+</record_update>
